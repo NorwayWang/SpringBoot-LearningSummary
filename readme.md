@@ -25,7 +25,7 @@
 
 &emsp;&emsp;Spring Boot 的神奇的不是借助于代码生成来实现的，而是通过条件注解来实现的，这是 Spring 4.x 提供的新特性。Spring 4.x 提倡使用 Java 配置和注解配置组合，而 Spring Boot 不需要任何 xml 配置即可实现 Spring 的所有配置。
 
-###Spring Boot的优缺点
+### Spring Boot的优缺点
 
 + 1）优点
 
