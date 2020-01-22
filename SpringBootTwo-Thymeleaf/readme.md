@@ -18,34 +18,35 @@
 
 ##### 项目结构介绍
 ```
-SpringBootOne-Start:.          
+SpringBootTwo-Thymeleaf:.          
 ├─src
 │  ├─main
 │  │  ├─java
 │  │  │  └─com
 │  │  │      └─wml
-│  │  │          │  SpringBootOneStartApplication.java #SpringBoot 项目入口(启动类)
+│  │  │          │  SpringBootTwoThymeleafApplication.java
 │  │  │          │  
-│  │  │          └─controller
-│  │  │                  HelloWorldController.java 
-│  │  │                  #自建的Controller类，用于显示‘Hello world’
+│  │  │          ├─controller
+│  │  │          │      ThymeleafController.java
+│  │  │          │      
+│  │  │          └─entity
+│  │  │                  Author.java
 │  │  │                  
 │  │  └─resources
-│  │          application.properties 
-│  │          #主要的配置文件，SpringBoot启动时候会自动加载application.yml/application.properties
-│  │          
+│  │      │  application.properties
+│  │      │  
+│  │      └─templates
+│  │              index.html
+│  │              
 │  └─test
 │      └─java
 │          └─com
 │              └─wml
-│                  │  SpringBootOneStartApplicationTests.java
-│                  │  
-│                  └─controller
-│                          HelloWorldControllerTest.java #Controller测试类
-│                          
+│                      SpringBootTwoThymeleafApplicationTests.java
+│                      
 └─target
-    │                  
-    └─classes
+    |
+    classes                  
 ```
 
 #### 2.Thymeleaf 模板
